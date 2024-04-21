@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* font-family: "DM Sans", sans-serif; */
+
+:root{
+   --dmsans:"DM Sans", sans-serif; 
+}
+
+body{
+    background-image: url(./assets/BG\ \(1\).png);
+    background-color: blue;
+    position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* nav  */
+.navbar-brand{
+    font-weight: 700;
+}
+.navbar-nav{
+    font-size: 17px;
+    font-family: var(--dmsans);
+    font-weight: 700;
+}   
+
+.navbar-nav li a{
+    color:black;
+}
+
+.btn-secondary{
+
+    background-color: #473BF0;
+}
+/* hero section */
+.fhjj{
+    margin-top: 4rem;
+}
+.kkk{
+    margin-top: 3rem;
+}
+
+.kkk span{
+color: red;
+font-weight: 700;
+font-family: var(--dmsans);
+}
+.kkk h1{
+    font-size: 45px;
+    font-family: var(--dmsans);
+    font-weight: 700;
+    width: 450px;
+    height: 110px;
+    margin-top: 1rem;
+}
+.kkk p{
+    font-size: 16px;
+    color: #161C2D;
+    opacity: 80%;
+    width: 400px;
+    height: 100px;
+}
+.wff img{
+    width: 403px;
+    height: 404px;
+}
+
