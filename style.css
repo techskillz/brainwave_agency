@@ -6,15 +6,17 @@
    --dmsans:"DM Sans", sans-serif; 
 }
 
-body{
+
+
+/* nav  */
+
+.navbar-expand-lg{
     background-image: url(./assets/BG\ \(1\).png);
     background-color: blue;
     position: center;
     background-size: cover;
-    height: 100vh;
+    
 }
-
-/* nav  */
 .navbar-brand{
     font-weight: 700;
 }
@@ -22,10 +24,13 @@ body{
     font-size: 17px;
     font-family: var(--dmsans);
     font-weight: 700;
+    gap: 2rem;
+    margin-left: 5rem;
 }   
 
 .navbar-nav li a{
     color:black;
+    
 }
 
 .btn-secondary{
@@ -34,10 +39,15 @@ body{
 }
 /* hero section */
 .fhjj{
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
+    background-image: url(./assets/BG\ \(1\).png);
+    background-color: blue;
+    position: center;
+    background-size: cover;
+    height: 100vh;
 }
 .kkk{
-    margin-top: 3rem;
+    margin-top: 7rem;
 }
 
 .kkk span{
@@ -61,7 +71,165 @@ font-family: var(--dmsans);
     height: 100px;
 }
 .wff img{
+    margin-top: 3rem;
     width: 403px;
     height: 404px;
 }
 
+/* services section */
+
+.wdd{
+    margin-top: 1rem;
+    text-align: center;
+    background-color: white;
+}
+.wdd span{
+    color: #F64B4B;
+    font-size: 13px;
+    font-family: var(--dmsans)
+}
+.wdd h4{
+    font-size:  36px; 
+     font-weight: 800;
+     width: 600px;
+     height: 96px;
+     margin-left: 20rem;
+     font-family: var(--dmsans);
+}
+.hju{
+    background-color: #68D585;
+    color: white;
+}
+.hju h5{
+    text-align: center;
+    font-family: var(--dmsans);
+    font-weight: 800;
+    font-size: 20px;
+    
+    }
+    
+    .hju p{
+        text-align: center;
+    font-family: var(--dmsans);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    opacity: 80%;
+    }
+.hjj img{
+    width: 117px;
+    height: 132px;
+    margin-left: 5rem;
+    align-items: center;
+}
+.jhu{
+    background-color: #F64B4B;
+}
+
+.jhh img{
+    width: 114px;
+    height: 132px;
+    margin-left: 5rem;
+    align-items: center;
+}
+.jhh{
+    position: relative;
+}
+.jhu h5{
+    text-align: center;
+    font-family: var(--dmsans);
+    font-weight: 800;
+    font-size: 20px;
+    
+    }
+    
+    .jhu p{
+        text-align: center;
+    font-family: var(--dmsans);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    opacity: 80%;
+    }
+.huy{
+    background-color: #473BF0;
+    color: white;
+}
+
+.huy h5{
+text-align: center;
+font-family: var(--dmsans);
+font-weight: 800;
+font-size: 20px;
+
+}
+
+.huy p{
+    text-align: center;
+font-family: var(--dmsans);
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+opacity: 80%;
+}
+.huy img{
+    width: 114px;
+    height: 132px;
+    margin-left: 5rem;
+    align-items: center;
+}
+
+
+.jrryu img{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 16rem;
+}
+
+.weer{
+    margin-top: 2rem;
+}
+
+/* testimonial section  */
+.hnm{
+    display: flex;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+.hnm img{
+    width: 144px;
+    height: 144px;
+    margin-left: 15rem;
+}
+
+.rtty{
+    border: none;
+}
+
+.rtty p{
+    width: 650px;
+    height: 78px;
+    font-size: 20px;
+    font-family: var(--dmsans);
+    font-weight: 700;
+}
+
+.rhl img{
+    text-align: center;
+    margin-left: 34rem;
+    margin-top: 5rem;
+}
+
+.blockquote-footer{
+    font-size: 13px;
+    font-family: var(--dmsans);
+    font-weight: 700;
+}
+
+.Source Title{
+    font-size: 9px;
+    font-family: var(--dmsans);
+    font-weight: 100;
+}
